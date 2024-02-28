@@ -88,7 +88,7 @@
         (apheleia-formatters-indent "--tab" "--indent"))
     (lisp-indent . apheleia-indent-lisp-buffer)
     (ktlint . ("ktlint" "--log-level=none" "--stdin" "-F" "-"))
-    (latexindent . ("latexindent" "--logfile=/dev/null"))
+    (latexindent . ("latexindent" "--logfile=/dev/null" "-l"))
     (mix-format . ("apheleia-from-project-root"
                    ".formatter.exs" "mix" "format" "-"))
     (nixfmt . ("nixfmt"))
